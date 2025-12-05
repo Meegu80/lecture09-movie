@@ -5,14 +5,13 @@ import {Reset} from "styled-reset";
 import Search from "./pages/Search.tsx";
 
 function App() {
-
     return (
         <BrowserRouter>
             <Reset/>
             <Routes>
-                <Route path={"/detail/:id"} element={<Detail/>}/>
-                <Route path={"/search"} element={<Search/>}/>
-                <Route path={"/"} element={<Home/>}/>
+                <Route path="/detail/:id" element={<Detail/>}/>
+                <Route path="/search" element={<Search/>}/>
+                <Route path="/" element={<Home/>}/>
             </Routes>
         </BrowserRouter>
     );

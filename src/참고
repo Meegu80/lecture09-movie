@@ -1,0 +1,6 @@
+검색용 API 주소
+https://www.omdbapi.com/?apikey=6a0a8eb4&s=${keyword}
+
+
+상세화면용 API 주소
+https://www.omdbapi.com/?apikey=6a0a8eb4&i=${id}&plot=full
